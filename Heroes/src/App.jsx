@@ -4,6 +4,7 @@ import { Header } from "./components";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
+ 
   return (
     <>
       <Routes>
@@ -11,7 +12,7 @@ function App() {
           <Route index element={<Pages.Homepage />} />
           <Route path="/heroes" element={<Pages.HeroesPage />} />
           <Route path="/heroes/:id" element={<Pages.HeroPage />} />
-          <Route path="/search" element={<Pages.SearchPage />} />
+          <Route path="/search" element={<Pages.Searchpage />} />
         </Route>
       </Routes>
     </>
