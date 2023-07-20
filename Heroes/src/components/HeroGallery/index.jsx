@@ -8,7 +8,7 @@ export default function ShowGallery() {
     async function displayHeroes() {
   
       const response = await fetch(
-        `https://superheroapi.com/api/243602908490010`
+        `https://superheroapi.com/api/243602908490010/`
       );
       const data = await response.json();
       setHeroes(data);
