@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Routes >
-      <Route index element={<Pages.Homepage />} />
+      <Route index element={<Pages.Homepage />} >
 <Route path="/heroes" element={<Pages.HeroesPage />} />
 <Route path="/hero/:id" element={<Pages.HeroPage />} />
 <Route path="/search" element={<Pages.Searchpage />} />
