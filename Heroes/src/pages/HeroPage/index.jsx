@@ -1,8 +1,8 @@
 import { React, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { ShowCard } from "../../components";
+import { HeroCard } from "../../components";
 
-export default function Showpage() {
+export default function HeroPage() {
   const { id } = useParams();
   const [show, setShow] = useState([]);
 

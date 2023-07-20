@@ -1,6 +1,6 @@
 import React from "react";
-import { allHeroes } from "../../components";
+import { HeroGallery } from "../../components";
 
-export default function Showspage() {
-  return <allHeroes />;
+export default function HeroesPage() {
+  return <HeroGallery />;
 }
