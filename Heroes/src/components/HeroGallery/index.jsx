@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+
 export default function ShowGallery() {
   const [heroes, setHeroes] = useState([]);
 
@@ -31,3 +32,4 @@ export default function ShowGallery() {
     </div>
   );
 }
+
