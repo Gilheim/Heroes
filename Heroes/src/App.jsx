@@ -1,7 +1,10 @@
-import './App.css'
-import * as Pages from './pages'
-import {Routes, Route} from 'react-router-dom'
-import {Header} from './components'
+
+import { useState } from "react";
+import "./App.css";
+import * as Pages from "./pages";
+import { Header } from "./components";
+import { Routes, Route } from "react-router-dom";
+
 
 function App() {
   return(
@@ -15,7 +18,7 @@ function App() {
         </Route>
       </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
