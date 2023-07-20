@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 
-export default function ShowGallery() {
+export default function HeroGallery() {
   const [heroes, setHeroes] = useState([]);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function ShowGallery() {
         return (
           <Link to={`${hero.id}`} key={hero.id}>
             <div className="gallery-image">
-              <img src={hero.url} alt={hero.name} />
+              <img src={hero.image.url} alt={hero.name} />
             </div>
           </Link>
         );
